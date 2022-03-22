@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Raleway:wght@400;700&display=swap');
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Raleway",sans-serif;
+}
+
+.main-body{
+    width:100%;
+    min-height: 100vh;
+    /* background-image: url("/wp9429756-batman-2022-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.search-form {  
+    width:150px;
+    height:30px;
+    border:1px solid #ccc;
+    background: transparent;
+    outline: none;
+    padding:5px 10px;
+    font-size: 19px;
+}
+
+
+
+/* Css for landing section */
+
+.landing {
+    width:100%;
+    height:700px;
+    /* background: #ccc; */
+    background-image: url("https://images2.alphacoders.com/119/thumb-1920-1193919.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    color:rgb(255, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading-content {
+    width:80%;
+    height: 60%;
+    margin:0 auto;
+    /* background: #ccc; */
+}
+
+
+
+
+/* Css for deatils Landing */
+
+.heading-content .rating span {
+    /* background:orange; */
+    padding-right:5px;
+}
+
+.heading-content .synopsis {
+    width:40%;
+    font-size: 20px;
+    padding:10px 0;
+}
+
+
+
+/* Css for Main section */
+
+.main-content {
+    width:80%;
+    margin:0 auto;
+}
+
+
+
+@media (max-width:755px) {
+    .heading-content .synopsis {
+        width:70%;
+    }
+}
+@media (max-width:1190px) {
+    .heading-content .synopsis {
+        width:70%;
+    }
+}
+@media (max-width:648px) {
+
+    .landing {
+        background-image: url("https://wallpaperaccess.com/full/6790593.jpg");
+        color:rgb(255, 255, 255);
+    }
+    .heading-content .synopsis {
+        width:90%;
+    }
+    
+    .heading-content {
+        height:100%;
+        padding-top:20px;
+    }
+}
